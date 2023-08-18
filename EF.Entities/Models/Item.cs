@@ -6,6 +6,6 @@
 
         public string Name { get; set; }
 
-        public Player? Player { get; set; }
+        public ICollection<Player>? Players { get; set; }
     }
 }

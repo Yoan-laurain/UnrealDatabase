@@ -1,4 +1,5 @@
 using EF.Entities.Contexts;
+using InternalApi.Utils;
 using Microsoft.AspNetCore.Authentication.Negotiate;
 using Microsoft.EntityFrameworkCore;
 using UnrealApi.Models;
@@ -10,6 +11,7 @@ builder.Services.AddAuthentication(NegotiateDefaults.AuthenticationScheme)
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddAuthorization();
 
 string? connectionString = builder.Configuration.GetConnectionString("DataBaseConnection");
 
@@ -26,7 +28,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseMiddleware<ApiKeyMiddleWare>();
+
 app.UseHttpsRedirection();
+app.UseAuthorization();
 
 app.MapItemEndpoints();
 
