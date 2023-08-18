@@ -1,12 +1,7 @@
 ﻿using EF.Entities.Models;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace EF.Entities.Context
+namespace EF.Entities.Contexts
 {
     public partial class EFContext : DbContext
     {

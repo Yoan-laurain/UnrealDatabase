@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ghost\\Desktop\\ProjectUnreal\\UnrealApi\\InternalApi.csproj": {}
+    "C:\\Users\\ghost\\Desktop\\UnrealDatabase\\UnrealApi\\InternalApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ghost\\Desktop\\ProjectUnreal\\EF.Entities\\EF.Entities.csproj": {
+    "C:\\Users\\ghost\\Desktop\\UnrealDatabase\\EF.Entities\\EF.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ghost\\Desktop\\ProjectUnreal\\EF.Entities\\EF.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\ghost\\Desktop\\UnrealDatabase\\EF.Entities\\EF.Entities.csproj",
         "projectName": "EF.Entities",
-        "projectPath": "C:\\Users\\ghost\\Desktop\\ProjectUnreal\\EF.Entities\\EF.Entities.csproj",
+        "projectPath": "C:\\Users\\ghost\\Desktop\\UnrealDatabase\\EF.Entities\\EF.Entities.csproj",
         "packagesPath": "C:\\Users\\ghost\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ghost\\Desktop\\ProjectUnreal\\EF.Entities\\obj\\",
+        "outputPath": "C:\\Users\\ghost\\Desktop\\UnrealDatabase\\EF.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -47,6 +47,22 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
             }
           },
           "imports": [
@@ -69,14 +85,14 @@
         }
       }
     },
-    "C:\\Users\\ghost\\Desktop\\ProjectUnreal\\UnrealApi\\InternalApi.csproj": {
+    "C:\\Users\\ghost\\Desktop\\UnrealDatabase\\UnrealApi\\InternalApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ghost\\Desktop\\ProjectUnreal\\UnrealApi\\InternalApi.csproj",
+        "projectUniqueName": "C:\\Users\\ghost\\Desktop\\UnrealDatabase\\UnrealApi\\InternalApi.csproj",
         "projectName": "InternalApi",
-        "projectPath": "C:\\Users\\ghost\\Desktop\\ProjectUnreal\\UnrealApi\\InternalApi.csproj",
+        "projectPath": "C:\\Users\\ghost\\Desktop\\UnrealDatabase\\UnrealApi\\InternalApi.csproj",
         "packagesPath": "C:\\Users\\ghost\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ghost\\Desktop\\ProjectUnreal\\UnrealApi\\obj\\",
+        "outputPath": "C:\\Users\\ghost\\Desktop\\UnrealDatabase\\UnrealApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -97,8 +113,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\ghost\\Desktop\\ProjectUnreal\\EF.Entities\\EF.Entities.csproj": {
-                "projectPath": "C:\\Users\\ghost\\Desktop\\ProjectUnreal\\EF.Entities\\EF.Entities.csproj"
+              "C:\\Users\\ghost\\Desktop\\UnrealDatabase\\EF.Entities\\EF.Entities.csproj": {
+                "projectPath": "C:\\Users\\ghost\\Desktop\\UnrealDatabase\\EF.Entities\\EF.Entities.csproj"
               }
             }
           }
@@ -113,6 +129,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Negotiate": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.10, )"

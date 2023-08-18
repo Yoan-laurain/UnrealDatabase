@@ -1,6 +1,6 @@
-﻿using Microsoft.AspNetCore.Http.HttpResults;
+﻿using EF.Entities.Contexts;
+using Microsoft.AspNetCore.Http.HttpResults;
 using System.Security.Claims;
-using EF.Entities.Context;
 
 namespace UnrealApi.Models
 {

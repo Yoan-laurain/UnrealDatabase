@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "lIl6QXcWx2DpHsBmt97o8Hfey7cfoUEfry9evCpkvKc=",
-  "Source": "UnrealApi",
-  "BasePath": "_content/UnrealApi",
+  "Hash": "XRAVS1TskmmN9xabCIOKwp7z0uEDqMNkUtAEkvdxQLA=",
+  "Source": "InternalApi",
+  "BasePath": "_content/InternalApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

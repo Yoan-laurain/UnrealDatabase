@@ -1,19 +1,24 @@
-using Microsoft.AspNetCore.Mvc;
+using EF.Entities.Contexts;
+using Microsoft.AspNetCore.Authentication.Negotiate;
 using Microsoft.EntityFrameworkCore;
 using UnrealApi.Models;
-using EF.Entities.Context;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddAuthentication(NegotiateDefaults.AuthenticationScheme)
+   .AddNegotiate();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-var app = builder.Build();
+string? connectionString = builder.Configuration.GetConnectionString("DataBaseConnection");
 
 builder.Services.AddDbContext<EFContext>(options =>
 {
-    options.UseSqlServer();
+    options.UseSqlServer(connectionString, b => b.MigrationsAssembly("InternalApi"));
 });
+
+WebApplication app = builder.Build();
 
 if (app.Environment.IsDevelopment())
 {
@@ -22,5 +27,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.MapItemEndpoints();
 
 app.Run();
