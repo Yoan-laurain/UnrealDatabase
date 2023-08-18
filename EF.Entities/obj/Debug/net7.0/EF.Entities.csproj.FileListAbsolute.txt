@@ -1,0 +1,12 @@
+C:\Users\ghost\Desktop\EF.Entities\bin\Debug\net7.0\EF.Entities.deps.json
+C:\Users\ghost\Desktop\EF.Entities\bin\Debug\net7.0\EF.Entities.dll
+C:\Users\ghost\Desktop\EF.Entities\bin\Debug\net7.0\EF.Entities.pdb
+C:\Users\ghost\Desktop\EF.Entities\obj\Debug\net7.0\EF.Entities.csproj.AssemblyReference.cache
+C:\Users\ghost\Desktop\EF.Entities\obj\Debug\net7.0\EF.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ghost\Desktop\EF.Entities\obj\Debug\net7.0\EF.Entities.AssemblyInfoInputs.cache
+C:\Users\ghost\Desktop\EF.Entities\obj\Debug\net7.0\EF.Entities.AssemblyInfo.cs
+C:\Users\ghost\Desktop\EF.Entities\obj\Debug\net7.0\EF.Entities.csproj.CoreCompileInputs.cache
+C:\Users\ghost\Desktop\EF.Entities\obj\Debug\net7.0\EF.Entities.dll
+C:\Users\ghost\Desktop\EF.Entities\obj\Debug\net7.0\refint\EF.Entities.dll
+C:\Users\ghost\Desktop\EF.Entities\obj\Debug\net7.0\EF.Entities.pdb
+C:\Users\ghost\Desktop\EF.Entities\obj\Debug\net7.0\ref\EF.Entities.dll
