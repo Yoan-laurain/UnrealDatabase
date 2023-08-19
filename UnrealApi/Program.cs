@@ -1,17 +1,30 @@
 using EF.Entities.Contexts;
-using InternalApi.Utils;
+using InternalApi.Module;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authentication.Negotiate;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 using UnrealApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddAuthentication(NegotiateDefaults.AuthenticationScheme)
-   .AddNegotiate();
-
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddAuthorization();
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
+{
+    options.TokenValidationParameters = new()
+    {
+        ValidateIssuer = true,
+        ValidIssuer = builder.Configuration["Jwt:Issuer"],
+        ValidateAudience = true,
+        ValidAudience = builder.Configuration["Jwt:Issuer"],
+        ValidateLifetime = true,
+        IssuerSigningKey = (SymmetricSecurityKey)new(Encoding.ASCII.GetBytes(builder.Configuration["Jwt:SigningKey"]!)),
+        ValidateIssuerSigningKey = true
+    };
+});
 
 string? connectionString = builder.Configuration.GetConnectionString("DataBaseConnection");
 
@@ -28,11 +41,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseMiddleware<ApiKeyMiddleWare>();
-
 app.UseHttpsRedirection();
-app.UseAuthorization();
+app.UseAuthentication();
 
 app.MapItemEndpoints();
+app.MapAuthenticationEndpoints();
 
 app.Run();

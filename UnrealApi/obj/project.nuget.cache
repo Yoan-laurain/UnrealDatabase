@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "EV+UCca1yPknD+NJTjE2gLsj1q5ntSlpEhrD+UmDSONy+v8OZU5Md+XmHU7SlzS6aK6ANzTaZcbaHiuWFC55cA==",
+  "dgSpecHash": "gtoj9UsLrGG8vGCrxZXfei2q0ra4CCd0URIcnscJinMKy5eudhTj4lwI63xU2JLMJnrg3ENIMv5Fzpy8xxdS4w==",
   "success": true,
   "projectFilePath": "C:\\Users\\ghost\\Desktop\\UnrealDatabase\\UnrealApi\\InternalApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ghost\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\ghost\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\ghost\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\ghost\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\ghost\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.10\\microsoft.aspnetcore.authentication.jwtbearer.7.0.10.nupkg.sha512",
     "C:\\Users\\ghost\\.nuget\\packages\\microsoft.aspnetcore.authentication.negotiate\\7.0.10\\microsoft.aspnetcore.authentication.negotiate.7.0.10.nupkg.sha512",
     "C:\\Users\\ghost\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\7.0.10\\microsoft.aspnetcore.connections.abstractions.7.0.10.nupkg.sha512",
     "C:\\Users\\ghost\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.10\\microsoft.aspnetcore.openapi.7.0.10.nupkg.sha512",

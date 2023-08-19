@@ -8,8 +8,9 @@ namespace EF.Entities.Contexts
         public  EFContext(DbContextOptions<EFContext> options) : base(options)
         { 
         }
-
         public virtual DbSet<Player> Players { get; set; }
         public virtual DbSet<Item> Items { get; set; }
+
+        public virtual DbSet<LoginAttempt> LoginAttempts { get; set; }
     }
 }

@@ -83,3 +83,5 @@ C:\Users\ghost\Desktop\UnrealDatabase\UnrealApi\bin\Debug\net7.0\System.Director
 C:\Users\ghost\Desktop\UnrealDatabase\UnrealApi\bin\Debug\net7.0\runtimes\linux\lib\net7.0\System.DirectoryServices.Protocols.dll
 C:\Users\ghost\Desktop\UnrealDatabase\UnrealApi\bin\Debug\net7.0\runtimes\osx\lib\net7.0\System.DirectoryServices.Protocols.dll
 C:\Users\ghost\Desktop\UnrealDatabase\UnrealApi\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.DirectoryServices.Protocols.dll
+C:\Users\ghost\Desktop\UnrealDatabase\UnrealApi\bin\Debug\net7.0\BCrypt.Net-Next.dll
+C:\Users\ghost\Desktop\UnrealDatabase\UnrealApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
