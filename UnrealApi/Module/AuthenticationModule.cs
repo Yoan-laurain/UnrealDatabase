@@ -20,7 +20,7 @@ namespace InternalApi.Module
         {
             var group = endpoints.MapGroup("");
             group.WithTags("Authentication");
-            //group.WithGroupName("v1");
+            group.WithGroupName("v1");
 
             group.MapPost("/RegisterUser", [AllowAnonymous] async Task<Results<Ok<string>, BadRequest<string>>> (EFContext db, IConfiguration configuration, UserViewModel player) =>
             {
