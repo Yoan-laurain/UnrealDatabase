@@ -24,3 +24,17 @@ C:\Users\ghost\Desktop\UnrealDatabase\EF.Entities\obj\Debug\net7.0\EF.Entities.p
 C:\Users\ghost\Desktop\UnrealDatabase\EF.Entities\obj\Debug\net7.0\ref\EF.Entities.dll
 C:\Users\ghost\Desktop\UnrealDatabase\EF.Entities\bin\Debug\net7.0\EF.Entities.runtimeconfig.json
 C:\Users\ghost\Desktop\UnrealDatabase\EF.Entities\obj\Debug\net7.0\EF.Entities.genruntimeconfig.cache
+D:\Users\ghost\Bureau\Projets C#\UnrealApi\UnrealDatabase\EF.Entities\bin\Debug\net7.0\EF.Entities.deps.json
+D:\Users\ghost\Bureau\Projets C#\UnrealApi\UnrealDatabase\EF.Entities\bin\Debug\net7.0\EF.Entities.runtimeconfig.json
+D:\Users\ghost\Bureau\Projets C#\UnrealApi\UnrealDatabase\EF.Entities\bin\Debug\net7.0\EF.Entities.dll
+D:\Users\ghost\Bureau\Projets C#\UnrealApi\UnrealDatabase\EF.Entities\bin\Debug\net7.0\EF.Entities.pdb
+D:\Users\ghost\Bureau\Projets C#\UnrealApi\UnrealDatabase\EF.Entities\obj\Debug\net7.0\EF.Entities.csproj.AssemblyReference.cache
+D:\Users\ghost\Bureau\Projets C#\UnrealApi\UnrealDatabase\EF.Entities\obj\Debug\net7.0\EF.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\ghost\Bureau\Projets C#\UnrealApi\UnrealDatabase\EF.Entities\obj\Debug\net7.0\EF.Entities.AssemblyInfoInputs.cache
+D:\Users\ghost\Bureau\Projets C#\UnrealApi\UnrealDatabase\EF.Entities\obj\Debug\net7.0\EF.Entities.AssemblyInfo.cs
+D:\Users\ghost\Bureau\Projets C#\UnrealApi\UnrealDatabase\EF.Entities\obj\Debug\net7.0\EF.Entities.csproj.CoreCompileInputs.cache
+D:\Users\ghost\Bureau\Projets C#\UnrealApi\UnrealDatabase\EF.Entities\obj\Debug\net7.0\EF.Entities.dll
+D:\Users\ghost\Bureau\Projets C#\UnrealApi\UnrealDatabase\EF.Entities\obj\Debug\net7.0\refint\EF.Entities.dll
+D:\Users\ghost\Bureau\Projets C#\UnrealApi\UnrealDatabase\EF.Entities\obj\Debug\net7.0\EF.Entities.pdb
+D:\Users\ghost\Bureau\Projets C#\UnrealApi\UnrealDatabase\EF.Entities\obj\Debug\net7.0\EF.Entities.genruntimeconfig.cache
+D:\Users\ghost\Bureau\Projets C#\UnrealApi\UnrealDatabase\EF.Entities\obj\Debug\net7.0\ref\EF.Entities.dll
