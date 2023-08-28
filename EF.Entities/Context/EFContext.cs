@@ -10,7 +10,5 @@ namespace EF.Entities.Contexts
         }
         public virtual DbSet<Player> Players { get; set; }
         public virtual DbSet<Item> Items { get; set; }
-
-        public virtual DbSet<LoginAttempt> LoginAttempts { get; set; }
     }
 }
